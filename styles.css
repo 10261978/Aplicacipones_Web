@@ -1,0 +1,42 @@
+/* Estilo personalizado */
+body {
+  font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #0978d8; 
+    color: #231d1d; 
+}
+
+/* Personaliza el botón principal */
+.btn-primary {
+  background-color: #211b1a;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b83556;
+  transform: scale(1.05);
+}
+
+/* Sombra y bordes */
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Media query personalizada */
+@media (max-width: 576px) {
+  body {
+    background-color: #f8f9fa;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+    color: #d7d1d0;
+  }
+}
